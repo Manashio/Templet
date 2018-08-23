@@ -1,8 +1,5 @@
 /* Custom Style Sheet */
-
-
 :root{
-  --theme-color:#24cba7;
   --white:#FFFFFF;
   --off-white:#EEEEEE;
   --theme-off:#34495e;
@@ -14,7 +11,7 @@
   font-family: 'Roboto',Sans-serif!important;
 }
 body{
-  background: #EEEEEE;
+  background: #FFFFFF;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -55,12 +52,6 @@ nav ul li a:hover,nav ul li a:focus{
   background: var(--white);
 }
 
-footer{
-  background: var(--theme-off);
-  padding: 40px 0px;
-  color: var(--white);
-}
-
 .pt-5{
   padding-top:40px; 
 }
@@ -68,15 +59,14 @@ footer{
   padding-bottom: 40px;
 }
 
-
-
-/*NEW*/
 .middle{
   margin-top: 50px;
   background: #FFFFFF;
-  
 }
 .hero{
+  background:#EEE;
+}
+.hero-text{
   padding: 200px 0px;
 }
 
