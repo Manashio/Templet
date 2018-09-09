@@ -64,7 +64,7 @@ nav ul li a:hover,nav ul li a:focus{
   background: #FFFFFF;
 }
 .hero{
-  background:#EEE;
+  background:#FFF;
 }
 .hero-text{
   padding: 200px 0px;
@@ -89,6 +89,71 @@ nav ul li a:hover,nav ul li a:focus{
 .intro-link:hover span,.intro-link:focus span{
   width:50px;
   background: #000000;
+}
+
+/*Typography*/
+.link{
+  font-size: 11px;
+  color: #333;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.link:hover{
+  color: #999;
+}
+
+.link::before{
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 2px;
+  background: #000;
+  position: relative;
+  top: -3px;
+  margin-right:10px; 
+}
+
+.status{
+  
+
+}
+
+.info{
+  padding-top: 20px;
+  font-size: 13px;
+  color: #777;
+  text-align: justify;
+}
+.marked{
+  padding-top: 20px;
+  font-size: 13px;
+  color: #AAAAAA;
+  font-weight: 600;
+}
+
+/*Footer*/
+footer{
+  padding-top: 200px;
+  padding-bottom: 30px;
+}
+
+.social, .social li{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.social li{
+  position: relative;
+  float: left;
+  padding: 10px 10px;
+}
+
+.social li a{
+  color: #333;
+  font-weight: 600;
+  font-size: 12px;
 }
 
 /* Custom Style Sheet */
