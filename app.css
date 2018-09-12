@@ -18,7 +18,6 @@ h1,h2,h3,h4,h5,h6{
 }
 p{
   margin: 0px!important;
-  font-weight: 400;
   text-align: justify;
   line-height: 27px;
 }
@@ -54,6 +53,8 @@ nav ul li a:hover,nav ul li a:focus{
 .my-list, .my-list li{
   list-style: none;
   font-size: 13px;
+  text-align: justify;
+  line-height: 27px;
 }
 
 .my-list li:nth-child(odd) {
@@ -154,7 +155,7 @@ h6{
 
 
 hr.small{
-  width: 30%;
+  width: 35%;
   margin-right:auto;
   margin-left: auto;
 
@@ -183,9 +184,9 @@ hr.small{
 }
 
 .status{
-  font-weight: 300;
   color: #999;
-  text-transform: uppercase;
+  text-transform: capitalize;
+  font-size: 12px;
 }
 
 .info{
@@ -228,8 +229,15 @@ footer{
 }
 .top{
   font-size: 12px;
-  font-weight: 500;
-  color: #777;
+  font-weight: 700;
+  color: #555;
+  display: block;
+  text-align: center;
+  width: 100px;
+  margin: 0 auto;
+  position: relative;
+  background: #FFFFFF;
+  top: -45px;
 }
 .top:hover,.top:focus{
   color: #111111;
