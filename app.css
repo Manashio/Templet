@@ -50,15 +50,52 @@ nav ul li a:hover,nav ul li a:focus{
   color: #000000;
   background: var(--white);
 }
+
+.my-list, .my-list li{
+  list-style: none;
+  font-size: 13px;
+}
+
+.my-list li:nth-child(odd) {
+  font-weight: 600;
+}
+.my-list li:nth-child(even) {
+  padding-bottom: 3rem;
+  font-weight: 400;
+  color: #777;
+}
+
+
 h6{
   font-size: 18px!important;
 }
-.pt-5{
-  padding-top:40px; 
+
+/* Bootstarp Padding classes */
+.pt-1{padding-top:.25rem!important;}
+.pb-1{padding-bottom:.25rem!important;}
+
+.pt-2{padding-top:.5rem!important}
+.pb-2{padding-bottom:.5rem!important}
+
+.pt-3{padding-top:1rem!important}
+.pb-3{padding-bottom:1rem!important}
+
+.pt-4{padding-top:1.5rem!important}
+.pb-4{padding-bottom:1.5rem!important}
+
+.pt-5{padding-top:3rem}
+.pb-5{padding-bottom:3rem}
+
+.pl-2{padding-left:.5rem!important}
+.pl-3{padding-left:1rem!important}
+.pl-4,.px-4{padding-left:1.5rem!important}
+.pl-5{padding-left:3rem!important}
+
+/* Bootstarp Padding classes */
+.no-margin{
+  margin:0px;
 }
-.pb-5{
-  padding-bottom: 40px;
-}
+
 
 .middle{
   margin-top: 50px;
@@ -69,6 +106,13 @@ h6{
 }
 .hero-text{
   padding: 200px 0px;
+}
+
+
+/*Typography*/
+
+.mute{
+  color: #666666;
 }
 
 .intro-text{
@@ -108,7 +152,14 @@ h6{
   background: #000000;
 }
 
-/*Typography*/
+
+hr.small{
+  width: 30%;
+  margin-right:auto;
+  margin-left: auto;
+
+}
+
 .link{
   font-size: 11px;
   color: #333;
@@ -169,9 +220,29 @@ footer{
 }
 
 .social li a{
-  color: #333;
-  font-weight: 600;
   font-size: 12px;
+}
+
+.right-align{
+  text-align: right;
+}
+.top{
+  font-size: 12px;
+  font-weight: 500;
+  color: #777;
+}
+.top:hover,.top:focus{
+  color: #111111;
+}
+/** Social media**/
+.gh,.gh:hover,.gh:focus{
+  color: #24292e;
+}
+.twitter,.twitter:hover,.twitter:focus{
+  color: #1da1f2 !important;
+}
+.ig,.ig:hover{
+  color: #d13388;
 }
 
 /* Custom Style Sheet */
