@@ -182,6 +182,20 @@ hr.small{
   top: -3px;
   margin-right:10px; 
 }
+.mail{
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  margin-left: 10px;
+  color: #000;
+}
+.title{
+  display: block;
+  font-size: 14px;
+  margin-top: -2px;
+  color: #777;
+  letter-spacing: 0.1rem; 
+  font-weight: 400;
+}
 
 .status{
   color: #222;
